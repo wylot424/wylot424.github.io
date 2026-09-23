@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>平安喜樂FAN STATION</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+body{
+    font-family:"Microsoft Yahei",sans-serif;
+    background:#f8faff;
+    color:#333;
+    line-height:1.7;
+}
+nav{
+    background:#e6f0ff;
+    padding:16px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+nav a{
+    color:#2b5cb8;
+    margin:0 16px;
+    text-decoration:none;
+    font-size:15px;
+}
+nav a:hover{
+    color:#f278a1;
+}
+header{
+    background:linear-gradient(135deg,#ffd6e4,#d4e4ff);
+    padding:60px 20px;
+    text-align:center;
+}
+h1{
+    font-size:36px;
+    margin-bottom:12px;
+    color:#d84e85;
+}
+.subtitle{
+    color:#4468b3;
+    font-size:16px;
+}
+/* 删掉width:1000px，max-width限制最大宽度，屏幕大就铺满，屏幕小自动收缩 */
+.container{
+    max-width:1400px;
+    margin:40px auto;
+    padding:0 20px;
+}
+.card{
+    background:#ffffff;
+    border-radius:14px;
+    padding:28px;
+    margin-bottom:24px;
+    box-shadow:0 2px 10px #cce0ff;
+}
+h2{
+    color:#d84e85;
+    margin-bottom:16px;
+    font-size:24px;
+}
+h3{
+    color:#2b5cb8;
+    margin:12px 0 8px;
+    font-size:18px;
+}
+p{
+    color:#444;
+    margin-bottom:10px;
+}
+.tag{
+    display:inline-block;
+    background:#ffe6ef;
+    color:#d84e85;
+    padding:3px 12px;
+    border-radius:20px;
+    font-size:13px;
+    margin:4px 4px 4px 0;
+}
+footer{
+    text-align:center;
+    padding:30px;
+    color:#7788aa;
+    margin-top:50px;
+    border-top:1px solid #d4e4ff;
+}
+
+.intro-content {
+    display: flex;
+    gap:24px;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width:100%;
+}
+
+#intro {
+    flex:1;
+    min-width:0;
+    padding:24px;
+    background: linear-gradient(135deg, #fff 0%, #ffeef2 100%);
+    border-radius:16px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+#intro a{
+    color:#e64980;
+    text-decoration:none;
+}
+#intro a:hover{
+    text-decoration:underline;
+}
+
+.intro-photo {
+    flex: 0 0 260px;
+    display:flex;
+    padding:14px;
+    background:#ffffff;
+    border-radius:18px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.08);
+}
+
+.intro-photo img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:14px;
+    display:block;
+}
+
+@media (max-width:740px){
+  .intro-content{
+    flex-wrap:wrap;
+  }
+  .intro-photo{
+    flex:0 0 100%;
+    margin-top:20px;
+  }
+}
+
+/* 乐窝成员 */
+.pet-img {
+    width: 280px;
+    display: block;
+    margin: 12px auto;
+    border-radius: 12px;
+}
+.pet-wrap {
+  display: flex;
+  gap:24px;
+  align-items: flex-start;
+}
+.pet-text {
+  flex:1;
+}
+.pet-photo img {
+  width: 320px;
+  border-radius:12px;
+}
+@media(max-width:740px){
+  .pet-wrap {
+    flex-direction: column;
+  }
+  .pet-photo {
+    text-align:center;
+  }
+}
+#pet a {
+  text-decoration: none;
+  color:#e64980;
+}
+#pet a:hover {
+  text-decoration: underline;
+}
+    </style>
+  
+</head>
+<body>
+    <nav>
+        <a href=" ">关于她</a >
+        <a href="#stage">舞台记录</a >
+        <a href="#live">直播小知识</a >
+        <a href="#pet">乐窝成员</a >
+    </nav>
+    <header>
+        <h1>平安喜樂FAN STATION</h1>
+        <div class="subtitle">ALL FOR 樂 ✨</div>
+    </header>
+
+<div class="container">
+    <div class="intro-content">
+        <div id="intro">
+
+    <h2>💖 关于她</h2>
+
+    <div class="intro-content">
+
+       <div class="intro-content">
+    <div class="card" id="intro">
+            <p>姓名：韩家乐</p >
+            <p>生日：1996年04月24日 农历三月初七</p >
+            <p>星座：金牛座</p >
+            <p>家乡：湖南常德</p >
+            <p>应援色：白色</p >
+            <p>粉丝名：乐色</p >
+            <p>亮相时间：2017年01月07日</p >
+            <p>出道时间：2017年01月12日</p >
+            <p>微博账号：-韩家乐- <a href="https://weibo.com/u/6072439004 " target="_blank">点击进入她的微博主页</a ></p>
+            <p>小红书账号:韩家乐 116555376 <a href=" https://xiaohongshu.com/user/profile/58ff8bd950c4b46120fa9038?xsec_token=AB8e4H7qHM7IrVQ8sRtWmOaN-Ek07O9owi6s1Tt_0kSrM%3D&xsec_source=pc_search" target="_blank">点击进入小红书主页</a > </p>
+            <p>抖音账号：韩家乐（10.4live10.5见面会版 HJL.HJL  <a href=" https://www.douyin.com/user/MS4wLjABAAAAMbciKVYQhNvbwHaQjOTGOG9BNINBPMj9GEKjlE99w6A?from_tab_name=main&is_search=1&list_name=follow&nt=0" target="_blank" rel="noopener noreferrer">点击跳转抖音主页</a ></p >
+                <div class="applet-box">
+  <div class="applet-box">
+  <h3>✨ 发言&翻牌</h3>
+  <p>打开微信，搜索：<喜乐言></喜乐言></p >
+</div>
+</div>
+            </div>
+        <div class="intro-photo">
+            <img src="images/picture.01.jpg" alt="韩家乐">
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+        </div>
+        <div class="card" id="stage">
+            <h2>🎤 舞台记录</h2>
+            <h3>重大舞台</h3>
+            <p>这里列出重要的舞台：时间、场合、曲目。</p >
+            <h3>特殊舞台</h3>
+            <p>有特殊意义的舞台、solo舞台、合作舞台等等。</p >
+        </div>
+        <div class="card" id="live">
+            <h2>📱 直播 & 小知识</h2>
+            <p>整理有意思的直播片段、冷知识、小趣事。</p >
+            <div>
+                <span class="tag">标签1</span>
+                <span class="tag">标签2</span>
+                <span class="tag">标签3</span>
+            </div>
+        </div>
+        <div  class="card" id="pet">
+  <h2>✨ 乐窝成员</h2>
+  <div class="pet-wrap">
+    <div class="pet-text">
+      <p>抖音账号：31330_51  <a href="https://www.douyin.com/user/MS4wLjABAAAAnZmmHd1fz0KBYAHzUavBl9iyRbhe4k238JaBUMNnR3bbY2E5AoM6cDooK_Jh-z4M?from_tab_name=main&is_search=1&list_name=follow&nt=0 ">点击跳转抖音主页</a ></p >
+      <p>姓名:咕噜(在喵星)</p >
+      <p>品种:重点色布偶</p >
+      <p>猜你想看：咕噜导弹发射 <a href=" https://www.bilibili.com/video/BV1VKeTeQEeG/?spm_id_from=333.1391.0.0&vd_source=3f85655b0695af21a52b4d0e19b39b90" target="_blank">点击观看B站视频</a >
+    </div>
+    <div class="pet-photo">
+      <img src="images/picture.02.jpg">
+    </div>
+  </div>
+</div>
+</html>
